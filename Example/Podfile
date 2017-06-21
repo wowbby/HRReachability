@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HRReachability_Example' do
+  pod 'HRReachability', :path => '../'
+
+  target 'HRReachability_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

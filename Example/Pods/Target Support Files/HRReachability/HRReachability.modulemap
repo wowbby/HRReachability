@@ -1,0 +1,6 @@
+framework module HRReachability {
+  umbrella header "HRReachability-umbrella.h"
+
+  export *
+  module * { export * }
+}
